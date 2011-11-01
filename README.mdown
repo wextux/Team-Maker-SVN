@@ -1,0 +1,12 @@
+README
+
+Description of Team Maker
+===========================
+
+This is a small iPhone/iPad app that I am working on for my family gold tournaments to generate teams. Using the iOS Address Book you can add Players to the pool. When you go to generate the teams the app shuffles the players and divides them into the amount of players per team that is desired.
+
+
+Known Issues
+===============
+
+* Takes too long to shuffle the players. This is because I am shuffling CoreData Objects that are contain a UIImage Object that holds the picture of the player that is in the pool. The way to fix this issue is to not store the image in the CoreData sqlite3 databases and just store the image in the file system. 
