@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/iostest/!svn/ver/81/trunk/TeamMakerPro/TeamMakerPro/Classes
+END
+MasterViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/iostest/!svn/ver/79/trunk/TeamMakerPro/TeamMakerPro/Classes/MasterViewController.h
+END
+ProfileViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/iostest/!svn/ver/66/trunk/TeamMakerPro/TeamMakerPro/Classes/ProfileViewController.xib
+END
+TeamViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/iostest/!svn/ver/81/trunk/TeamMakerPro/TeamMakerPro/Classes/TeamViewController.m
+END
+TeamModalViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/iostest/!svn/ver/66/trunk/TeamMakerPro/TeamMakerPro/Classes/TeamModalViewController.xib
+END
+MasterViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/iostest/!svn/ver/81/trunk/TeamMakerPro/TeamMakerPro/Classes/MasterViewController.m
+END
+DetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/iostest/!svn/ver/75/trunk/TeamMakerPro/TeamMakerPro/Classes/DetailViewController.h
+END
+PlayerInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/iostest/!svn/ver/64/trunk/TeamMakerPro/TeamMakerPro/Classes/PlayerInfoViewController.xib
+END
+TeamModalViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/iostest/!svn/ver/48/trunk/TeamMakerPro/TeamMakerPro/Classes/TeamModalViewController.h
+END
+ProfileEditController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/iostest/!svn/ver/79/trunk/TeamMakerPro/TeamMakerPro/Classes/ProfileEditController.xib
+END
+DetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/iostest/!svn/ver/81/trunk/TeamMakerPro/TeamMakerPro/Classes/DetailViewController.m
+END
+PlayerInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/iostest/!svn/ver/72/trunk/TeamMakerPro/TeamMakerPro/Classes/PlayerInfoViewController.h
+END
+TeamModalViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/iostest/!svn/ver/48/trunk/TeamMakerPro/TeamMakerPro/Classes/TeamModalViewController.m
+END
+EditPlayerInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/iostest/!svn/ver/38/trunk/TeamMakerPro/TeamMakerPro/Classes/EditPlayerInfoViewController.xib
+END
+PlayersViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/iostest/!svn/ver/69/trunk/TeamMakerPro/TeamMakerPro/Classes/PlayersViewController.xib
+END
+Randomizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/iostest/!svn/ver/47/trunk/TeamMakerPro/TeamMakerPro/Classes/Randomizer.h
+END
+ProfileEditController.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/iostest/!svn/ver/80/trunk/TeamMakerPro/TeamMakerPro/Classes/ProfileEditController.h
+END
+PlayerInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/iostest/!svn/ver/73/trunk/TeamMakerPro/TeamMakerPro/Classes/PlayerInfoViewController.m
+END
+EditPlayerInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/iostest/!svn/ver/38/trunk/TeamMakerPro/TeamMakerPro/Classes/EditPlayerInfoViewController.h
+END
+PlayersViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/iostest/!svn/ver/81/trunk/TeamMakerPro/TeamMakerPro/Classes/PlayersViewController.h
+END
+ProfileEditController.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/iostest/!svn/ver/80/trunk/TeamMakerPro/TeamMakerPro/Classes/ProfileEditController.m
+END
+Randomizer.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/iostest/!svn/ver/81/trunk/TeamMakerPro/TeamMakerPro/Classes/Randomizer.m
+END
+TeamViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/iostest/!svn/ver/67/trunk/TeamMakerPro/TeamMakerPro/Classes/TeamViewController.xib
+END
+EditPlayerInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/iostest/!svn/ver/38/trunk/TeamMakerPro/TeamMakerPro/Classes/EditPlayerInfoViewController.m
+END
+PlayersViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/iostest/!svn/ver/81/trunk/TeamMakerPro/TeamMakerPro/Classes/PlayersViewController.m
+END
+TeamMakerProAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/iostest/!svn/ver/66/trunk/TeamMakerPro/TeamMakerPro/Classes/TeamMakerProAppDelegate.h
+END
+TeamViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/iostest/!svn/ver/79/trunk/TeamMakerPro/TeamMakerPro/Classes/TeamViewController.h
+END
+TeamMakerProAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/iostest/!svn/ver/69/trunk/TeamMakerPro/TeamMakerPro/Classes/TeamMakerProAppDelegate.m
+END

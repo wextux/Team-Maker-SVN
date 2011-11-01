@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B54ECA9713EDC0CE00901C2E /* PlayerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54ECA9513EDC0CE00901C2E /* PlayerInfoViewController.m */; };
+		B54ECA9813EDC0CE00901C2E /* PlayerInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B54ECA9613EDC0CE00901C2E /* PlayerInfoViewController.xib */; };
+		BE06015C13F324B40088AA35 /* Thumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = BE06015B13F324B40088AA35 /* Thumbnail.m */; };
+		BE06017513F3295D0088AA35 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = BE06017413F3295D0088AA35 /* Profile.m */; };
+		BE078EB813F5484300F67B19 /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE078EB613F5484300F67B19 /* PlayersViewController.m */; };
+		BE078EB913F5484300F67B19 /* PlayersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE078EB713F5484300F67B19 /* PlayersViewController.xib */; };
+		BE14A84213F488E0004C5B18 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE14A84013F488E0004C5B18 /* TeamViewController.m */; };
+		BE14A84313F488E0004C5B18 /* TeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE14A84113F488E0004C5B18 /* TeamViewController.xib */; };
+		BE14A85313F49225004C5B18 /* TeamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE14A85213F49225004C5B18 /* TeamCell.m */; };
+		BE14A85513F4927C004C5B18 /* TeamCell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE14A85413F4927C004C5B18 /* TeamCell_iPhone.xib */; };
+		BE1F504E13EB07890006ED63 /* TeamMakerProAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1F504C13EB07890006ED63 /* TeamMakerProAppDelegate.m */; };
+		BE1FCCE413EADC9D00D1FF16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1FCCE313EADC9D00D1FF16 /* UIKit.framework */; };
+		BE1FCCE613EADC9D00D1FF16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1FCCE513EADC9D00D1FF16 /* Foundation.framework */; };
+		BE1FCCE813EADC9D00D1FF16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1FCCE713EADC9D00D1FF16 /* CoreGraphics.framework */; };
+		BE1FCCEA13EADC9D00D1FF16 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1FCCE913EADC9D00D1FF16 /* CoreData.framework */; };
+		BE1FCCF013EADC9D00D1FF16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE1FCCEE13EADC9D00D1FF16 /* InfoPlist.strings */; };
+		BE1FCCF213EADC9D00D1FF16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1FCCF113EADC9D00D1FF16 /* main.m */; };
+		BE1FCD0213EADC9D00D1FF16 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1FCD0013EADC9D00D1FF16 /* MasterViewController_iPhone.xib */; };
+		BE1FCD0513EADC9D00D1FF16 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1FCD0313EADC9D00D1FF16 /* MasterViewController_iPad.xib */; };
+		BE1FCD0813EADC9D00D1FF16 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1FCD0613EADC9D00D1FF16 /* DetailViewController_iPhone.xib */; };
+		BE1FCD0B13EADC9D00D1FF16 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1FCD0913EADC9D00D1FF16 /* DetailViewController_iPad.xib */; };
+		BE1FCD1C13EADD3000D1FF16 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1FCD1413EADD3000D1FF16 /* DetailViewController.m */; };
+		BE1FCD1D13EADD3000D1FF16 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1FCD1613EADD3000D1FF16 /* MasterViewController.m */; };
+		BE1FCD1F13EADD3000D1FF16 /* TeamMakerPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE1FCD1A13EADD3000D1FF16 /* TeamMakerPro.xcdatamodeld */; };
+		BE30BD1F13F4A23100F8C590 /* DarkBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = BE30BD1D13F4A23100F8C590 /* DarkBackground.png */; };
+		BE30BD2013F4A23100F8C590 /* LightBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = BE30BD1E13F4A23100F8C590 /* LightBackground.png */; };
+		BE30BD2313F4A7C500F8C590 /* TeamCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE30BD2213F4A7C500F8C590 /* TeamCell_iPad.xib */; };
+		BE3291D613ED8B4100FB38A8 /* team.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3291D513ED8B4100FB38A8 /* team.png */; };
+		BE3A81F213EEF2FA00ACC7AB /* Randomizer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3A81F113EEF2FA00ACC7AB /* Randomizer.m */; };
+		BE55027B13EAE51200454021 /* MGSplitCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE55027613EAE51200454021 /* MGSplitCornersView.m */; };
+		BE55027C13EAE51200454021 /* MGSplitDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE55027813EAE51200454021 /* MGSplitDividerView.m */; };
+		BE55027D13EAE51200454021 /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE55027A13EAE51200454021 /* MGSplitViewController.m */; };
+		BE55028D13EB036100454021 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE55028C13EB036100454021 /* MainWindow.xib */; };
+		BE5D451213F59DE600696C26 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5D451113F59DE600696C26 /* Player.m */; };
+		BE5D451613F59E3500696C26 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5D451513F59E3500696C26 /* Team.m */; };
+		BE5D451913F5A04F00696C26 /* CreateTeamsAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5D451813F5A04F00696C26 /* CreateTeamsAlertView.m */; };
+		BE5DA46313F2FD6000DD0C47 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5DA46113F2FD6000DD0C47 /* AddressBook.framework */; };
+		BE5DA46413F2FD6000DD0C47 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5DA46213F2FD6000DD0C47 /* AddressBookUI.framework */; };
+		BE78BC9413F9B9F70049B921 /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE78BC9313F9B9F70049B921 /* PlayerCell.m */; };
+		BE78BC9713F9BA330049B921 /* PlayerCell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE78BC9613F9BA330049B921 /* PlayerCell_iPhone.xib */; };
+		BE8D7EF413EB68D0005C2A48 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8D7EF313EB68D0005C2A48 /* icon.png */; };
+		BEC962DA13F5B20A00B6AFB3 /* cell_background.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC962D913F5B20A00B6AFB3 /* cell_background.png */; };
+		BED4A04A13F9BF4000D663E2 /* accessory.png in Resources */ = {isa = PBXBuildFile; fileRef = BED4A04913F9BF4000D663E2 /* accessory.png */; };
+		BED4A04F13F9CA0700D663E2 /* ProfileEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = BED4A04D13F9CA0700D663E2 /* ProfileEditController.m */; };
+		BED4A05013F9CA0700D663E2 /* ProfileEditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BED4A04E13F9CA0700D663E2 /* ProfileEditController.xib */; };
+		BEF64AE813ECB844001953B3 /* TeamModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF64AE613ECB844001953B3 /* TeamModalViewController.m */; };
+		BEF64AE913ECB844001953B3 /* TeamModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF64AE713ECB844001953B3 /* TeamModalViewController.xib */; };
+		BEF64AEE13ECBBC0001953B3 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF64AED13ECBBC0001953B3 /* Profile.png */; };
+		BEF64AF013ECE63B001953B3 /* green_background.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF64AEF13ECE63B001953B3 /* green_background.png */; };
+		BEFD1E5213F3FFEE0075D4A7 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEFD1E5013F3FFEE0075D4A7 /* ProfileViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B54ECA9413EDC0CE00901C2E /* PlayerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerInfoViewController.h; sourceTree = "<group>"; };
+		B54ECA9513EDC0CE00901C2E /* PlayerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerInfoViewController.m; sourceTree = "<group>"; };
+		B54ECA9613EDC0CE00901C2E /* PlayerInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlayerInfoViewController.xib; path = ../Classes/PlayerInfoViewController.xib; sourceTree = "<group>"; };
+		BE06015A13F324B40088AA35 /* Thumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumbnail.h; sourceTree = "<group>"; };
+		BE06015B13F324B40088AA35 /* Thumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumbnail.m; sourceTree = "<group>"; };
+		BE06017313F3295D0088AA35 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		BE06017413F3295D0088AA35 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		BE078EB513F5484300F67B19 /* PlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersViewController.h; sourceTree = "<group>"; };
+		BE078EB613F5484300F67B19 /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
+		BE078EB713F5484300F67B19 /* PlayersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlayersViewController.xib; path = ../Classes/PlayersViewController.xib; sourceTree = "<group>"; };
+		BE14A83F13F488E0004C5B18 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		BE14A84013F488E0004C5B18 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		BE14A84113F488E0004C5B18 /* TeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TeamViewController.xib; path = ../Classes/TeamViewController.xib; sourceTree = "<group>"; };
+		BE14A85113F49225004C5B18 /* TeamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamCell.h; path = "Cell Controllers/TeamCell.h"; sourceTree = "<group>"; };
+		BE14A85213F49225004C5B18 /* TeamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamCell.m; path = "Cell Controllers/TeamCell.m"; sourceTree = "<group>"; };
+		BE14A85413F4927C004C5B18 /* TeamCell_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TeamCell_iPhone.xib; path = "Views/Custom Cells/TeamCell_iPhone.xib"; sourceTree = "<group>"; };
+		BE1F504C13EB07890006ED63 /* TeamMakerProAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamMakerProAppDelegate.m; path = Classes/TeamMakerProAppDelegate.m; sourceTree = "<group>"; };
+		BE1F504D13EB07890006ED63 /* TeamMakerProAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamMakerProAppDelegate.h; path = Classes/TeamMakerProAppDelegate.h; sourceTree = "<group>"; };
+		BE1FCCDF13EADC9D00D1FF16 /* TeamMakerPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamMakerPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1FCCE313EADC9D00D1FF16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE1FCCE513EADC9D00D1FF16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE1FCCE713EADC9D00D1FF16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE1FCCE913EADC9D00D1FF16 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BE1FCCED13EADC9D00D1FF16 /* TeamMakerPro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeamMakerPro-Info.plist"; sourceTree = "<group>"; };
+		BE1FCCEF13EADC9D00D1FF16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE1FCCF113EADC9D00D1FF16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE1FCCF313EADC9D00D1FF16 /* TeamMakerPro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeamMakerPro-Prefix.pch"; sourceTree = "<group>"; };
+		BE1FCD0113EADC9D00D1FF16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		BE1FCD0413EADC9D00D1FF16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		BE1FCD0713EADC9D00D1FF16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		BE1FCD0A13EADC9D00D1FF16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		BE1FCD1313EADD3000D1FF16 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BE1FCD1413EADD3000D1FF16 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BE1FCD1513EADD3000D1FF16 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BE1FCD1613EADD3000D1FF16 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BE1FCD1B13EADD3000D1FF16 /* TeamMakerPro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeamMakerPro.xcdatamodel; sourceTree = "<group>"; };
+		BE30BD1D13F4A23100F8C590 /* DarkBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkBackground.png; sourceTree = "<group>"; };
+		BE30BD1E13F4A23100F8C590 /* LightBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBackground.png; sourceTree = "<group>"; };
+		BE30BD2213F4A7C500F8C590 /* TeamCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TeamCell_iPad.xib; path = "Views/Custom Cells/TeamCell_iPad.xib"; sourceTree = "<group>"; };
+		BE3291D513ED8B4100FB38A8 /* team.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = team.png; sourceTree = "<group>"; };
+		BE3A81F013EEF2FA00ACC7AB /* Randomizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Randomizer.h; sourceTree = "<group>"; };
+		BE3A81F113EEF2FA00ACC7AB /* Randomizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Randomizer.m; sourceTree = "<group>"; };
+		BE55027513EAE51200454021 /* MGSplitCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitCornersView.h; sourceTree = "<group>"; };
+		BE55027613EAE51200454021 /* MGSplitCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitCornersView.m; sourceTree = "<group>"; };
+		BE55027713EAE51200454021 /* MGSplitDividerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitDividerView.h; sourceTree = "<group>"; };
+		BE55027813EAE51200454021 /* MGSplitDividerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitDividerView.m; sourceTree = "<group>"; };
+		BE55027913EAE51200454021 /* MGSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitViewController.h; sourceTree = "<group>"; };
+		BE55027A13EAE51200454021 /* MGSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitViewController.m; sourceTree = "<group>"; };
+		BE55028C13EB036100454021 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		BE5D451013F59DE600696C26 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		BE5D451113F59DE600696C26 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		BE5D451413F59E3500696C26 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		BE5D451513F59E3500696C26 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		BE5D451713F5A04F00696C26 /* CreateTeamsAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateTeamsAlertView.h; path = "Alert Views/CreateTeamsAlertView.h"; sourceTree = "<group>"; };
+		BE5D451813F5A04F00696C26 /* CreateTeamsAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateTeamsAlertView.m; path = "Alert Views/CreateTeamsAlertView.m"; sourceTree = "<group>"; };
+		BE5DA46113F2FD6000DD0C47 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		BE5DA46213F2FD6000DD0C47 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		BE78BC9213F9B9F70049B921 /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerCell.h; path = "Cell Controllers/PlayerCell.h"; sourceTree = "<group>"; };
+		BE78BC9313F9B9F70049B921 /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerCell.m; path = "Cell Controllers/PlayerCell.m"; sourceTree = "<group>"; };
+		BE78BC9613F9BA330049B921 /* PlayerCell_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlayerCell_iPhone.xib; path = "Views/Custom Cells/PlayerCell_iPhone.xib"; sourceTree = "<group>"; };
+		BE8D7EF313EB68D0005C2A48 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BEC962D913F5B20A00B6AFB3 /* cell_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_background.png; sourceTree = "<group>"; };
+		BED4A04913F9BF4000D663E2 /* accessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accessory.png; sourceTree = "<group>"; };
+		BED4A04C13F9CA0700D663E2 /* ProfileEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileEditController.h; sourceTree = "<group>"; };
+		BED4A04D13F9CA0700D663E2 /* ProfileEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileEditController.m; sourceTree = "<group>"; };
+		BED4A04E13F9CA0700D663E2 /* ProfileEditController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileEditController.xib; path = ../Classes/ProfileEditController.xib; sourceTree = "<group>"; };
+		BEF64AE513ECB844001953B3 /* TeamModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamModalViewController.h; sourceTree = "<group>"; };
+		BEF64AE613ECB844001953B3 /* TeamModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamModalViewController.m; sourceTree = "<group>"; };
+		BEF64AE713ECB844001953B3 /* TeamModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TeamModalViewController.xib; path = ../Classes/TeamModalViewController.xib; sourceTree = "<group>"; };
+		BEF64AED13ECBBC0001953B3 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
+		BEF64AEF13ECE63B001953B3 /* green_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_background.png; sourceTree = "<group>"; };
+		BEFD1E5013F3FFEE0075D4A7 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileViewController.xib; path = ../Classes/ProfileViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1FCCDC13EADC9D00D1FF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5DA46313F2FD6000DD0C47 /* AddressBook.framework in Frameworks */,
+				BE5DA46413F2FD6000DD0C47 /* AddressBookUI.framework in Frameworks */,
+				BE1FCCE413EADC9D00D1FF16 /* UIKit.framework in Frameworks */,
+				BE1FCCE613EADC9D00D1FF16 /* Foundation.framework in Frameworks */,
+				BE1FCCE813EADC9D00D1FF16 /* CoreGraphics.framework in Frameworks */,
+				BE1FCCEA13EADC9D00D1FF16 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE14A84613F4896B004C5B18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE14A84D13F49139004C5B18 /* iPad */,
+				BE14A84C13F4912F004C5B18 /* iPhone */,
+				BE14A84B13F4911A004C5B18 /* Custom Cells */,
+				BE55028C13EB036100454021 /* MainWindow.xib */,
+				B54ECA9613EDC0CE00901C2E /* PlayerInfoViewController.xib */,
+				BE078EB713F5484300F67B19 /* PlayersViewController.xib */,
+				BED4A04E13F9CA0700D663E2 /* ProfileEditController.xib */,
+				BEF64AE713ECB844001953B3 /* TeamModalViewController.xib */,
+				BE14A84113F488E0004C5B18 /* TeamViewController.xib */,
+				BEFD1E5013F3FFEE0075D4A7 /* ProfileViewController.xib */,
+				BED4A04913F9BF4000D663E2 /* accessory.png */,
+				BE30BD1D13F4A23100F8C590 /* DarkBackground.png */,
+				BE30BD1E13F4A23100F8C590 /* LightBackground.png */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BE14A84B13F4911A004C5B18 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BE14A85413F4927C004C5B18 /* TeamCell_iPhone.xib */,
+				BE30BD2213F4A7C500F8C590 /* TeamCell_iPad.xib */,
+				BE78BC9613F9BA330049B921 /* PlayerCell_iPhone.xib */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		BE14A84C13F4912F004C5B18 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				BE1FCD0013EADC9D00D1FF16 /* MasterViewController_iPhone.xib */,
+				BE1FCD0613EADC9D00D1FF16 /* DetailViewController_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		BE14A84D13F49139004C5B18 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BE1FCD0313EADC9D00D1FF16 /* MasterViewController_iPad.xib */,
+				BE1FCD0913EADC9D00D1FF16 /* DetailViewController_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		BE14A85013F491E2004C5B18 /* Cell Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE14A85113F49225004C5B18 /* TeamCell.h */,
+				BE14A85213F49225004C5B18 /* TeamCell.m */,
+				BE78BC9213F9B9F70049B921 /* PlayerCell.h */,
+				BE78BC9313F9B9F70049B921 /* PlayerCell.m */,
+			);
+			name = "Cell Controllers";
+			sourceTree = "<group>";
+		};
+		BE1FCCD413EADC9D00D1FF16 = {
+			isa = PBXGroup;
+			children = (
+				BE1FCCEB13EADC9D00D1FF16 /* TeamMakerPro */,
+				BE1FCCE213EADC9D00D1FF16 /* Frameworks */,
+				BE1FCCE013EADC9D00D1FF16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1FCCE013EADC9D00D1FF16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1FCCDF13EADC9D00D1FF16 /* TeamMakerPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1FCCE213EADC9D00D1FF16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE5DA46113F2FD6000DD0C47 /* AddressBook.framework */,
+				BE5DA46213F2FD6000DD0C47 /* AddressBookUI.framework */,
+				BE1FCCE313EADC9D00D1FF16 /* UIKit.framework */,
+				BE1FCCE513EADC9D00D1FF16 /* Foundation.framework */,
+				BE1FCCE713EADC9D00D1FF16 /* CoreGraphics.framework */,
+				BE1FCCE913EADC9D00D1FF16 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE1FCCEB13EADC9D00D1FF16 /* TeamMakerPro */ = {
+			isa = PBXGroup;
+			children = (
+				BE1FCD1113EADD3000D1FF16 /* Classes */,
+				BE1F504D13EB07890006ED63 /* TeamMakerProAppDelegate.h */,
+				BE1F504C13EB07890006ED63 /* TeamMakerProAppDelegate.m */,
+				BE1FCD1A13EADD3000D1FF16 /* TeamMakerPro.xcdatamodeld */,
+				BE1FCD1913EADD3000D1FF16 /* Resources */,
+				BE1FCCEC13EADC9D00D1FF16 /* Supporting Files */,
+			);
+			path = TeamMakerPro;
+			sourceTree = "<group>";
+		};
+		BE1FCCEC13EADC9D00D1FF16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE1FCCED13EADC9D00D1FF16 /* TeamMakerPro-Info.plist */,
+				BE1FCCEE13EADC9D00D1FF16 /* InfoPlist.strings */,
+				BE1FCCF113EADC9D00D1FF16 /* main.m */,
+				BE1FCCF313EADC9D00D1FF16 /* TeamMakerPro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE1FCD1113EADD3000D1FF16 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE1FCD2A13EADE2200D1FF16 /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BE1FCD1213EADD3000D1FF16 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE5D451413F59E3500696C26 /* Team.h */,
+				BE5D451513F59E3500696C26 /* Team.m */,
+				BE5D451013F59DE600696C26 /* Player.h */,
+				BE5D451113F59DE600696C26 /* Player.m */,
+				BE06017313F3295D0088AA35 /* Profile.h */,
+				BE06017413F3295D0088AA35 /* Profile.m */,
+				BE06015A13F324B40088AA35 /* Thumbnail.h */,
+				BE06015B13F324B40088AA35 /* Thumbnail.m */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		BE1FCD1913EADD3000D1FF16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE14A84613F4896B004C5B18 /* Views */,
+				BEF64AEF13ECE63B001953B3 /* green_background.png */,
+				BEC962D913F5B20A00B6AFB3 /* cell_background.png */,
+				BE8D7EF313EB68D0005C2A48 /* icon.png */,
+				BE3291D513ED8B4100FB38A8 /* team.png */,
+				BEF64AED13ECBBC0001953B3 /* Profile.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE1FCD2A13EADE2200D1FF16 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE5D451B13F5A07200696C26 /* Alert Views */,
+				BE14A85013F491E2004C5B18 /* Cell Controllers */,
+				BE3A81EE13EEF2CC00ACC7AB /* Model */,
+				BE55027413EAE51200454021 /* MGSplitViewController */,
+				BE1FCD1313EADD3000D1FF16 /* DetailViewController.h */,
+				BE1FCD1413EADD3000D1FF16 /* DetailViewController.m */,
+				BE1FCD1513EADD3000D1FF16 /* MasterViewController.h */,
+				BE1FCD1613EADD3000D1FF16 /* MasterViewController.m */,
+				BEF64AE513ECB844001953B3 /* TeamModalViewController.h */,
+				BEF64AE613ECB844001953B3 /* TeamModalViewController.m */,
+				B54ECA9413EDC0CE00901C2E /* PlayerInfoViewController.h */,
+				B54ECA9513EDC0CE00901C2E /* PlayerInfoViewController.m */,
+				BE14A83F13F488E0004C5B18 /* TeamViewController.h */,
+				BE14A84013F488E0004C5B18 /* TeamViewController.m */,
+				BE078EB513F5484300F67B19 /* PlayersViewController.h */,
+				BE078EB613F5484300F67B19 /* PlayersViewController.m */,
+				BED4A04C13F9CA0700D663E2 /* ProfileEditController.h */,
+				BED4A04D13F9CA0700D663E2 /* ProfileEditController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BE3A81EE13EEF2CC00ACC7AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE1FCD1213EADD3000D1FF16 /* Data Model */,
+				BE3A81F013EEF2FA00ACC7AB /* Randomizer.h */,
+				BE3A81F113EEF2FA00ACC7AB /* Randomizer.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BE55027413EAE51200454021 /* MGSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BE55027513EAE51200454021 /* MGSplitCornersView.h */,
+				BE55027613EAE51200454021 /* MGSplitCornersView.m */,
+				BE55027713EAE51200454021 /* MGSplitDividerView.h */,
+				BE55027813EAE51200454021 /* MGSplitDividerView.m */,
+				BE55027913EAE51200454021 /* MGSplitViewController.h */,
+				BE55027A13EAE51200454021 /* MGSplitViewController.m */,
+			);
+			path = MGSplitViewController;
+			sourceTree = "<group>";
+		};
+		BE5D451B13F5A07200696C26 /* Alert Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE5D451713F5A04F00696C26 /* CreateTeamsAlertView.h */,
+				BE5D451813F5A04F00696C26 /* CreateTeamsAlertView.m */,
+			);
+			name = "Alert Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1FCCDE13EADC9D00D1FF16 /* TeamMakerPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1FCD0E13EADC9D00D1FF16 /* Build configuration list for PBXNativeTarget "TeamMakerPro" */;
+			buildPhases = (
+				BE1FCCDB13EADC9D00D1FF16 /* Sources */,
+				BE1FCCDC13EADC9D00D1FF16 /* Frameworks */,
+				BE1FCCDD13EADC9D00D1FF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeamMakerPro;
+			productName = TeamMakerPro;
+			productReference = BE1FCCDF13EADC9D00D1FF16 /* TeamMakerPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1FCCD613EADC9D00D1FF16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Superna;
+			};
+			buildConfigurationList = BE1FCCD913EADC9D00D1FF16 /* Build configuration list for PBXProject "TeamMakerPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE1FCCD413EADC9D00D1FF16;
+			productRefGroup = BE1FCCE013EADC9D00D1FF16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1FCCDE13EADC9D00D1FF16 /* TeamMakerPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1FCCDD13EADC9D00D1FF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1FCCF013EADC9D00D1FF16 /* InfoPlist.strings in Resources */,
+				BE1FCD0213EADC9D00D1FF16 /* MasterViewController_iPhone.xib in Resources */,
+				BE1FCD0513EADC9D00D1FF16 /* MasterViewController_iPad.xib in Resources */,
+				BE1FCD0813EADC9D00D1FF16 /* DetailViewController_iPhone.xib in Resources */,
+				BE1FCD0B13EADC9D00D1FF16 /* DetailViewController_iPad.xib in Resources */,
+				BE55028D13EB036100454021 /* MainWindow.xib in Resources */,
+				BE8D7EF413EB68D0005C2A48 /* icon.png in Resources */,
+				BEF64AE913ECB844001953B3 /* TeamModalViewController.xib in Resources */,
+				BEF64AEE13ECBBC0001953B3 /* Profile.png in Resources */,
+				BEF64AF013ECE63B001953B3 /* green_background.png in Resources */,
+				BE3291D613ED8B4100FB38A8 /* team.png in Resources */,
+				B54ECA9813EDC0CE00901C2E /* PlayerInfoViewController.xib in Resources */,
+				BEFD1E5213F3FFEE0075D4A7 /* ProfileViewController.xib in Resources */,
+				BE14A84313F488E0004C5B18 /* TeamViewController.xib in Resources */,
+				BE14A85513F4927C004C5B18 /* TeamCell_iPhone.xib in Resources */,
+				BE30BD1F13F4A23100F8C590 /* DarkBackground.png in Resources */,
+				BE30BD2013F4A23100F8C590 /* LightBackground.png in Resources */,
+				BE30BD2313F4A7C500F8C590 /* TeamCell_iPad.xib in Resources */,
+				BE078EB913F5484300F67B19 /* PlayersViewController.xib in Resources */,
+				BEC962DA13F5B20A00B6AFB3 /* cell_background.png in Resources */,
+				BE78BC9713F9BA330049B921 /* PlayerCell_iPhone.xib in Resources */,
+				BED4A04A13F9BF4000D663E2 /* accessory.png in Resources */,
+				BED4A05013F9CA0700D663E2 /* ProfileEditController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1FCCDB13EADC9D00D1FF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1FCCF213EADC9D00D1FF16 /* main.m in Sources */,
+				BE1FCD1C13EADD3000D1FF16 /* DetailViewController.m in Sources */,
+				BE1FCD1D13EADD3000D1FF16 /* MasterViewController.m in Sources */,
+				BE1FCD1F13EADD3000D1FF16 /* TeamMakerPro.xcdatamodeld in Sources */,
+				BE55027B13EAE51200454021 /* MGSplitCornersView.m in Sources */,
+				BE55027C13EAE51200454021 /* MGSplitDividerView.m in Sources */,
+				BE55027D13EAE51200454021 /* MGSplitViewController.m in Sources */,
+				BE1F504E13EB07890006ED63 /* TeamMakerProAppDelegate.m in Sources */,
+				BEF64AE813ECB844001953B3 /* TeamModalViewController.m in Sources */,
+				B54ECA9713EDC0CE00901C2E /* PlayerInfoViewController.m in Sources */,
+				BE3A81F213EEF2FA00ACC7AB /* Randomizer.m in Sources */,
+				BE06015C13F324B40088AA35 /* Thumbnail.m in Sources */,
+				BE06017513F3295D0088AA35 /* Profile.m in Sources */,
+				BE14A84213F488E0004C5B18 /* TeamViewController.m in Sources */,
+				BE14A85313F49225004C5B18 /* TeamCell.m in Sources */,
+				BE078EB813F5484300F67B19 /* PlayersViewController.m in Sources */,
+				BE5D451213F59DE600696C26 /* Player.m in Sources */,
+				BE5D451613F59E3500696C26 /* Team.m in Sources */,
+				BE5D451913F5A04F00696C26 /* CreateTeamsAlertView.m in Sources */,
+				BE78BC9413F9B9F70049B921 /* PlayerCell.m in Sources */,
+				BED4A04F13F9CA0700D663E2 /* ProfileEditController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE1FCCEE13EADC9D00D1FF16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1FCCEF13EADC9D00D1FF16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE1FCD0013EADC9D00D1FF16 /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1FCD0113EADC9D00D1FF16 /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BE1FCD0313EADC9D00D1FF16 /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1FCD0413EADC9D00D1FF16 /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BE1FCD0613EADC9D00D1FF16 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1FCD0713EADC9D00D1FF16 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BE1FCD0913EADC9D00D1FF16 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1FCD0A13EADC9D00D1FF16 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE1FCD0C13EADC9D00D1FF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE1FCD0D13EADC9D00D1FF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE1FCD0F13EADC9D00D1FF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeamMakerPro/TeamMakerPro-Prefix.pch";
+				INFOPLIST_FILE = "TeamMakerPro/TeamMakerPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE1FCD1013EADC9D00D1FF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeamMakerPro/TeamMakerPro-Prefix.pch";
+				INFOPLIST_FILE = "TeamMakerPro/TeamMakerPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1FCCD913EADC9D00D1FF16 /* Build configuration list for PBXProject "TeamMakerPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1FCD0C13EADC9D00D1FF16 /* Debug */,
+				BE1FCD0D13EADC9D00D1FF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1FCD0E13EADC9D00D1FF16 /* Build configuration list for PBXNativeTarget "TeamMakerPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1FCD0F13EADC9D00D1FF16 /* Debug */,
+				BE1FCD1013EADC9D00D1FF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE1FCD1A13EADD3000D1FF16 /* TeamMakerPro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE1FCD1B13EADD3000D1FF16 /* TeamMakerPro.xcdatamodel */,
+			);
+			currentVersion = BE1FCD1B13EADD3000D1FF16 /* TeamMakerPro.xcdatamodel */;
+			name = TeamMakerPro.xcdatamodeld;
+			path = Resources/TeamMakerPro.xcdatamodeld;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE1FCCD613EADC9D00D1FF16 /* Project object */;
+}

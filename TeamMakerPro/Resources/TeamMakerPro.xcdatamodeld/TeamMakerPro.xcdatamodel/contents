@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="858" systemVersion="11A511" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Player" representedClassName="Player">
+        <attribute name="dateOfBirth" optional="YES" attributeType="Date"/>
+        <attribute name="emailAddress" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="handicap" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="isMale" optional="YES" attributeType="Boolean"/>
+        <attribute name="isPlaying" optional="YES" attributeType="Boolean"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="numberofWins" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="thumbnailPic" optional="YES" attributeType="Transformable" valueTransformerName="Thumbnail"/>
+        <relationship name="teams" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Team" inverseName="players" inverseEntity="Team"/>
+    </entity>
+    <entity name="Profile" representedClassName="Profile">
+        <attribute name="dateCreated" optional="YES" attributeType="Date"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="number" optional="YES" attributeType="String"/>
+        <attribute name="owner" optional="YES" attributeType="String"/>
+        <relationship name="teams" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Team"/>
+    </entity>
+    <entity name="Team" representedClassName="Team">
+        <attribute name="dateCreated" optional="YES" attributeType="Date"/>
+        <attribute name="didWin" optional="YES" attributeType="Boolean"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="thumbnailPic" optional="YES" attributeType="Transformable" valueTransformerName="Thumbnail"/>
+        <relationship name="players" optional="YES" toMany="YES" minCount="1" deletionRule="No Action" destinationEntity="Player" inverseName="teams" inverseEntity="Player"/>
+    </entity>
+    <elements>
+        <element name="Player" positionX="160" positionY="192" width="128" height="195"/>
+        <element name="Profile" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="Team" positionX="-297" positionY="135" width="128" height="135"/>
+    </elements>
+</model>
